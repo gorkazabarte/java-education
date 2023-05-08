@@ -9,9 +9,7 @@ public class TaskCh01N002 {
         Calculate square root of 1 - sin²(x).
         */
 
-        double sin = Math.sin(x);
-
-        return Math.sqrt(1.0 - Math.pow(sin, 2.0));
+        return Math.sqrt(1.0 - (Math.sin(x) * Math.sin(x)));
     }
 
     public static double operation1(double a, double b, double c, double x) {
