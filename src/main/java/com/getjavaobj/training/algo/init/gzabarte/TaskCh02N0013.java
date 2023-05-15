@@ -1,7 +1,13 @@
-package main.java.com.getjavajob.training.algo.init.gzabarte;
+package com.getjavaobj.training.algo.init.gzabarte;
 
 public class TaskCh02N0013 {
 
+    /**
+     * Reverse a number
+     *
+     * @param number integer to reverse
+     * @return number reversed
+     */
     public static int reverseNumber(int number) {
         String castToStr = Integer.toString(number);
         String reversedNumber = "";
@@ -13,9 +19,8 @@ public class TaskCh02N0013 {
     }
 
     public static void main(String[] args) {
-        System.out.println(reverseNumber(100));
+        System.out.println(reverseNumber(1006));
     }
-
 }
 
 
